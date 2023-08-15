@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Circle/Circle.iml" filepath="$PROJECT_DIR$/Circle/Circle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/MD2_Inheritance.iml" filepath="$PROJECT_DIR$/.idea/MD2_Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Point2D_And_3D/Point2D_And_3D.iml" filepath="$PROJECT_DIR$/Point2D_And_3D/Point2D_And_3D.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Shape/Shape.iml" filepath="$PROJECT_DIR$/Shape/Shape.iml" />
+    </modules>
+  </component>
+</project>
