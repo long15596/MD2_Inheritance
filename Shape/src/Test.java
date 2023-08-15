@@ -1,7 +1,4 @@
-import shape.Circle;
-import shape.Rectangle;
-import shape.Shape;
-import shape.Square;
+import shape.*;
 
 public class Test {
     public static void main(String[] args) {
@@ -41,5 +38,8 @@ public class Test {
         square = new Square(10, "blue", false);
         System.out.println(square);
 
+        Triangle triangle = new Triangle();
+        triangle = new Triangle(7, 8, 9 , "black", true);
+        System.out.println(triangle);
     }
 }
