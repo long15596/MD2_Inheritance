@@ -6,9 +6,13 @@ public class Test {
         Point2D point2D = new Point2D();
         point2D = new Point2D(1, 2);
         System.out.println(point2D);
+        point2D.setXY(9,10);
+        System.out.println(point2D);
+
 
         Point3D point3D = new Point3D();
         point3D = new Point3D(3,4,5);
         System.out.println(point3D);
+
     }
 }

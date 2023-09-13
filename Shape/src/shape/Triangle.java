@@ -1,7 +1,7 @@
 package shape;
 
 public class Triangle extends Shape {
-    double side1, side2 , side3 = 1.0;
+    double side1, side2, side3 = 1.0;
 
     public Triangle() {}
 
