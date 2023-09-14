@@ -1,9 +1,8 @@
 import shape.ComparableCircle;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
-public class TestCamparable {
+public class TestComparable {
     public static void main(String[] args) {
         ComparableCircle[] circles = new ComparableCircle[3];
         circles[0] = new ComparableCircle(5.8);

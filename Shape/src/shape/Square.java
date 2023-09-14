@@ -1,6 +1,8 @@
 package shape;
 
-public class Square extends Rectangle{
+import resizeable.Resizeable;
+
+public class Square extends Rectangle implements Resizeable {
     double side;
     public Square() {}
 
@@ -36,5 +38,13 @@ public class Square extends Rectangle{
                 + getSide()
                 + ", which is a subclass of "
                 + super.toString();
+    }
+
+    @Override
+    public void resize(double percent) {
+        System.out.println("Before resize: "
+                            + getArea()
+                            + ", After resize: "
+                            + (getArea() + (getArea() * percent/100)));
     }
 }

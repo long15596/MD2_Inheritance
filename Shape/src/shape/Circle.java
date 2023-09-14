@@ -1,6 +1,9 @@
 package shape;
 
-public class Circle extends Shape {
+import colorable.Colorable;
+import resizeable.Resizeable;
+
+public class Circle extends Shape implements Resizeable, Colorable {
     private double radius = 1.0;
     public Circle() {}
     public Circle(double radius) {
@@ -32,6 +35,19 @@ public class Circle extends Shape {
                 + getRadius()
                 + ", which is a subclass of "
                 + super.toString();
+    }
+
+    @Override
+    public void resize(double percent) {
+        System.out.println("Before resize: "
+                + getArea()
+                + ", After resize: "
+                + (getArea() + (getArea() * percent / 100)));
+    }
+
+    @Override
+    public void howToColor() {
+        System.out.println("Color all four sides ...");
     }
 }
 
